@@ -58,3 +58,39 @@ Siga os passos abaixo para rodar o projeto localmente:
 2. Acesse a pasta do projeto:
   ```bash
    cd controle-estoque-app
+
+3. Instale as dependências:
+    ```bash
+    npm install
+    # ou
+    yarn install
+
+4. Rode o servidor de desenvolvimento:
+    ```bash
+    npm run dev
+    # ou
+    yarn dev
+
+5. Abra o link abaixo no navegador para visualizar o projeto.
+    ```bash 
+    http://localhost:3000
+
+
+
+### Scripts Disponíveis
+dev: Inicia o servidor de desenvolvimento.
+build: Compila o projeto para produção.
+start: Inicia o servidor de produção.
+lint: Verifica o código com o ESLint.
+
+### Estrutura do Projeto
+/
+|-- app/          # Rotas e componentes da aplicação
+|-- components/   # Componentes reutilizáveis
+|-- styles/       # Configuração e estilos TailwindCSS
+|-- utils/        # Funções utilitárias
+|-- public/       # Recursos estáticos
+
+### Contribuição
+Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou pull requests no repositório.
+
